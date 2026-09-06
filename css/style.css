@@ -1,12 +1,12 @@
 body {
-    background-color: hsl(0, 100%, 97%);;
-    color: oklab(35.603% 0.04403 0.01567);
+    background-color: lab(91.93% 10.3 3.77);;
+    color: #5d4949;
     font-size: 20px;
     font-family: georgia, "Times New Roman", Times, serif;
 }
 
 .container {
-    background-color: lab(100% 0.01 -0.01);
+    background-color: lab(96.21% 4.7 1.68);
     width: 96%;
     max-width: 1170px;
     margin-left: auto;
@@ -32,25 +32,25 @@ nav li {
 nav a {
     display: inline-block;
     text-decoration: none;
-    background-color: lab(39.87% 17.55 7.16);
+    background-color: oklch(66.649% 0.02651 17.681);
     padding: 15px;
     color: #ffffff;
 }
 
 nav a:hover {
-    background-color: lch(24.14% 12.19 21.86);
+    background-color: oklch(46.382% 0.01443 17.485);
 }
 
 footer a {
     display: inline-block;
     text-decoration: none;
-    background-color: lab(39.87% 17.55 7.16);
+    background-color:  oklch(66.649% 0.02651 17.681);
     padding: 15px;
     color: #ffffff;
 }
 
 footer a:hover {
-    background-color: lch(24.14% 12.19 21.86);
+    background-color: oklch(46.382% 0.01443 17.485);
 }
 
 .presentation{
@@ -106,13 +106,13 @@ footer p {
 
 .hiking-tips {
     text-decoration: none;
-    background-color: lab(39.87% 17.55 7.16);
+    background-color:  oklch(66.649% 0.02651 17.681);
     padding: 15px;
     color: #ffffff;
 }
 
 .hiking-tips:hover {
-    background-color:lch(24.14% 12.19 21.86);
+    background-color:oklch(46.382% 0.01443 17.485);
 }
 
 .contact {
