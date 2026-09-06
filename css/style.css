@@ -1,0 +1,125 @@
+body {
+    background-color: hsl(0, 100%, 97%);;
+    color: oklab(35.603% 0.04403 0.01567);
+    font-size: 20px;
+    font-family: georgia, "Times New Roman", Times, serif;
+}
+
+.container {
+    background-color: lab(100% 0.01 -0.01);
+    width: 96%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: lab(39.87% 17.55 7.16);
+    padding: 15px;
+    color: #ffffff;
+}
+
+nav a:hover {
+    background-color: lch(24.14% 12.19 21.86);
+}
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: lab(39.87% 17.55 7.16);
+    padding: 15px;
+    color: #ffffff;
+}
+
+footer a:hover {
+    background-color: lch(24.14% 12.19 21.86);
+}
+
+.presentation{
+    padding: 40px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.presentation-image {
+    width: 450px;
+    max-width: 100%;
+    display: block;
+    margin: 80px auto 0;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+.hobby h2,
+.hobby > p {
+    text-align: center;
+}
+
+.hobby table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobby-images {
+    text-align: center;
+}
+
+.hobby-images img {
+    width: 100%;
+}
+
+.hobby-images div {
+    display: inline-block;
+    width: 25%;
+    margin: 20px 1%;
+    vertical-align: top;
+}
+
+.hiking-tips {
+    text-decoration: none;
+    background-color: lab(39.87% 17.55 7.16);
+    padding: 15px;
+    color: #ffffff;
+}
+
+.hiking-tips:hover {
+    background-color:lch(24.14% 12.19 21.86);
+}
+
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-style: italic;
+}
